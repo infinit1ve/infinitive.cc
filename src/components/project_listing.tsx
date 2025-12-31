@@ -13,7 +13,7 @@ function ProjectListing( {title, desc, url, prettyUrl} : props ) {
 				<h3 className="font-satoshi text-2xl">{title}</h3>
 				<p>{prettyUrl}</p>
 			</div>
-			<div>
+			<div className="text-left">
 				<p>{desc}</p>
 			</div>
 		</a>

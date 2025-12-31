@@ -1,6 +1,6 @@
 function Terminal() {
     return (
-        <div className="bg-bg text-accent text-base font-mono p-4 rounded-3xl outline-accent outline-2 aspect-square z-1">
+        <div className="bg-bg text-accent text-left text-base font-mono p-4 rounded-3xl outline-accent outline-2 pb-12">
             <p>$ echo "Welcome, traveller!"</p>
             <p>&gt; Welcome, traveller!</p>
             <p>$ npm run dev</p>
