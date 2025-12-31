@@ -11,3 +11,9 @@ Idk who will read this, but you're welcome here! Feel free to explore my spaghet
 ## Attributions
 
 Uicons by [Flaticon](https://www.flaticon.com/uicons)
+
+## LICENSE
+
+The code in this repository is licensed under the MIT license. See [LICENSE.md](./LICENSE.md) for details.
+Assets from the Indian Type Foundry and Flaticon are used according to their respective licenses. Please refer to the asset folders or the official websites for full license details.
+Assets under `/src/assets/images/infinitive` are licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
