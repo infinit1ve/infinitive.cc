@@ -10,4 +10,4 @@ Idk who will read this, but you're welcome here! Feel free to explore my spaghet
 
 ## Attributions
 
-Uicons by (Flaticon)[https://www.flaticon.com/uicons]
+Uicons by [Flaticon](https://www.flaticon.com/uicons)
