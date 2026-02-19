@@ -12,11 +12,15 @@ type props = {
 
 export default function Projects({ project }: props) {
   return (
-    <div>
+    <div className="p-10 flex flex-col gap-5">
       <h2 className="text-base text-text-gray">PROJECTS</h2>
       <div>
         {project.map((element) => {
-          return <div></div>;
+          return (
+            <a href={element.url || undefined}>
+              <h3>{element.name}</h3>
+            </a>
+          );
         })}
       </div>
     </div>

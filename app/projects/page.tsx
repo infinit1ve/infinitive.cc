@@ -1,4 +1,5 @@
 import Links from "../components/links";
+import Projects from "../components/projects";
 import TopBar from "../components/topBar";
 
 export default function Home() {
@@ -20,6 +21,14 @@ export default function Home() {
       url: "/cv",
     },
   ];
+  const projects = [
+    {
+      name: "Portfolio Website",
+      image: "",
+      desc: "My small window into the internet",
+      date: "2026",
+    },
+  ];
 
   return (
     <>
@@ -29,6 +38,7 @@ export default function Home() {
         <p className="text-2xl">Some of my work</p>
         <p>It&#39;s not much, but it&#39;s honest work</p>
       </div>
+      <Projects project={projects} />
       <Links name="SITE" links={site} />
     </>
   );

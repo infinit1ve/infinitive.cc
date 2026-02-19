@@ -55,7 +55,7 @@ export default function Home() {
     },
     {
       name: "Municipal General Secondary Education Institution - Lyceum No. 5 of the Khmelnytskyi City Council",
-      timeframe: "11/2023 - 08/2024",
+      timeframe: "09/2013 - 08/2024",
     },
   ];
   return (
