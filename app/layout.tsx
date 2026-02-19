@@ -14,9 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="max-w-3xl">
-          {children}
-        </div>
+        <div className="max-w-3xl w-full">{children}</div>
       </body>
     </html>
   );
