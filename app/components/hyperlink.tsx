@@ -9,9 +9,9 @@ type props = {
 
 export default function Hyperlink( {name, url, external = false} : props ) {
     return(
-            <a href={url} className="cursor-pointer inline-flex flex-row gap-1 items-center mr-0.5 underline decoration-dotted">
-                {name}
-                {external ? <Image className="size-2" src={arrow} alt="infinitive.cc logo"/> : null}
-            </a>
+        <a href={url} className="cursor-pointer inline-flex flex-row gap-1 items-center mr-0.5 underline underline-offset-2 decoration-dotted">
+            {name}
+            {external ? <Image className="size-2" src={arrow} alt="infinitive.cc logo"/> : null}
+        </a>
     );
 }
