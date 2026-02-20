@@ -1,6 +1,5 @@
 import ExperienceList from "../components/experienceList";
 import Hyperlink from "../components/hyperlink";
-import Links from "../components/links";
 import TopBar from "../components/topBar";
 
 export default function Home() {
@@ -75,7 +74,6 @@ export default function Home() {
       </div>
       <ExperienceList name="EXPERIENCE" items={experience} />
       <ExperienceList name="EDUCATION" items={education} />
-      <Links name="SITE" links={site} />
     </>
   );
 }

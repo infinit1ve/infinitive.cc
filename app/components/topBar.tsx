@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import glyph from "../assets/icons/glyph-main.svg";
 

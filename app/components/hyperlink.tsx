@@ -11,7 +11,7 @@ export default function Hyperlink({ name, url, external = false }: props) {
   return (
     <a
       href={url}
-      className="cursor-pointer inline-flex flex-row gap-1 items-center mr-0.5 underline underline-offset-2 decoration-dotted"
+      className="cursor-pointer inline-flex flex-row gap-1 items-center mr-0.5 underline underline-offset-2 decoration-dotted hover:decoration-solid"
     >
       {name}
       {external ? (

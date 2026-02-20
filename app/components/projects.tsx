@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type projectProps = {
   name: string;
   image: string;
@@ -17,8 +19,27 @@ export default function Projects({ project }: props) {
       <div>
         {project.map((element) => {
           return (
-            <a href={element.url || undefined}>
-              <h3>{element.name}</h3>
+            <a
+              className="w-full flex flex-col gap-2 sm:gap-4 mb-6 sm:flex-row sm:mb-3"
+              key={element.name}
+              href={element.url || undefined}
+            >
+              <Image
+                className="rounded-xl sm:w-[30%]"
+                src={element.image}
+                alt={`${element.name} logo`}
+              />
+              <div className="w-full">
+                <div className="flex justify-between items-center">
+                  <h3
+                    className={`text-lg ${element.url ? "hover:underline underline-offset-2" : null}`}
+                  >
+                    {element.name}
+                  </h3>
+                  <p className="text-xs">{element.date}</p>
+                </div>
+                <p className="text-text-gray text-sm">{element.desc}</p>
+              </div>
             </a>
           );
         })}

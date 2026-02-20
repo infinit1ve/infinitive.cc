@@ -1,4 +1,3 @@
-import Links from "../components/links";
 import List from "../components/list";
 import TopBar from "../components/topBar";
 
@@ -83,24 +82,6 @@ export default function Home() {
       property2: "i3-7100U",
     },
   ];
-  const site = [
-    {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "Projects",
-      url: "/projects",
-    },
-    {
-      name: "About Me",
-      url: "/about",
-    },
-    {
-      name: "CV",
-      url: "/cv",
-    },
-  ];
   return (
     <>
       <TopBar text_right="HARDWARE" />
@@ -108,7 +89,6 @@ export default function Home() {
       <List name="PERIPHERALS" items={peripherals} />
       <List name="NETWORKING" items={networking} />
       <List name="HOMELAB" items={homelab} />
-      <Links name="SITE" links={site} />
     </>
   );
 }

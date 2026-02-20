@@ -1,32 +1,15 @@
-import Links from "../components/links";
+import infinitiveLogo from "../assets/projectLogos/infinitive.cc.svg";
 import Projects from "../components/projects";
 import TopBar from "../components/topBar";
 
 export default function Home() {
-  const site = [
-    {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "Hardware",
-      url: "/hardware",
-    },
-    {
-      name: "About Me",
-      url: "/about",
-    },
-    {
-      name: "CV",
-      url: "/cv",
-    },
-  ];
   const projects = [
     {
       name: "Portfolio Website",
-      image: "",
+      image: infinitiveLogo,
       desc: "My small window into the internet",
       date: "2026",
+      url: "/",
     },
   ];
 
@@ -39,7 +22,6 @@ export default function Home() {
         <p>It&#39;s not much, but it&#39;s honest work</p>
       </div>
       <Projects project={projects} />
-      <Links name="SITE" links={site} />
     </>
   );
 }
