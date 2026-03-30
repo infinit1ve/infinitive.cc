@@ -6,7 +6,7 @@ export default function NotFound() {
       <h1 className="text-3xl">404</h1>
       <p>
         Page not found. You can{" "}
-        <Hyperlink name="return to the previous page" url="../" />
+        <Hyperlink name="return to the homepage" url="/" />
       </p>
     </div>
   );

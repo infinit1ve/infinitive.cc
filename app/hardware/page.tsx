@@ -24,7 +24,7 @@ export default function Home() {
       property2: "USB-C",
     },
     {
-      name: "Apple Watch S",
+      name: "Apple Watch SE",
       property1: "2nd Generation",
       property2: "Midnight",
     },

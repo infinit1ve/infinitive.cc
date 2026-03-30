@@ -36,7 +36,7 @@ export default function Home() {
       name: "Charity work",
       place: "Angestöpselt e. V.",
       url: "https://angestoepselt.de",
-      timeframe: "04/2025 - now",
+      timeframe: "04/2025 - 02/2026",
       skill1:
         "Refurbish donated laptops by upgrading storage and memory, performing hardware cleaning, and deploying preconfigured Linux images for redistribution to people in need",
       skill2:

@@ -47,6 +47,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </div>
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
       </body>
     </html>
   );

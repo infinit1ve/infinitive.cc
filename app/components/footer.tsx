@@ -9,6 +9,9 @@ export default function Footer() {
         <a className="hover:underline" href="/">
           Home
         </a>
+        <a className="hover:underline" href="/blog">
+          Blog
+        </a>
         <a className="hover:underline" href="/about">
           About Me
         </a>

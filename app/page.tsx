@@ -9,6 +9,11 @@ export default function Home() {
       external: true,
     },
     {
+      name: "Matrix",
+      url: "https://matrix.to/#/@max:infinitive.cc",
+      external: true,
+    },
+    {
       name: "GitHub",
       url: "https://github.com/infinit1ve",
       external: true,
@@ -21,6 +26,10 @@ export default function Home() {
   ];
 
   const site = [
+    {
+      name: "Blog",
+      url: "/blog",
+    },
     {
       name: "Hardware",
       url: "/hardware",
