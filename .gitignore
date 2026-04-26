@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# fonts
+/app/assets/fonts/satoshi/fonts
+/app/assets/fonts/satoshi/FFL.txt
