@@ -2,6 +2,8 @@ import ExperienceList from "../components/experienceList";
 import Hyperlink from "../components/hyperlink";
 import TopBar from "../components/topBar";
 
+export const metadata = { title: "About" };
+
 export default function Home() {
   const site = [
     {

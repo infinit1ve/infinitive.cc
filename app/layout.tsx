@@ -6,19 +6,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://infinitive.cc"),
   title: {
-    default: "Maksym",
+    default: "Maksym — Student & Hobbyist Developer | infinitive",
     template: "%s | infinitive",
   },
   description:
-    "Running my own stack on the internet. Portfolio of Maksym Tarashchan.",
+    "Personal corner of the internet. Projects, hardware tinkering, and notes from someone who learns by doing.",
   creator: "Maksym Tarashchan",
   publisher: "Maksym Tarashchan",
   openGraph: {
     type: "website",
     url: "https://infinitive.cc",
     siteName: "infinitive.cc",
-    title: "infinitive Portfolio",
-    description: "Running my own stack on the internet.",
+    title: "Maksym — Student & Hobbyist Developer",
+    description:
+      "Personal corner of the internet. Projects, hardware tinkering, and notes from someone who learns by doing.",
     images: [
       {
         url: "/og.png",
@@ -32,7 +33,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "infinitive.cc",
-    description: "Running my own stack on the internet.",
+    description:
+      "Personal corner of the internet. Projects, hardware tinkering, and notes from someone who learns by doing.",
     images: ["/og.png"],
   },
 };
