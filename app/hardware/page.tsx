@@ -1,7 +1,8 @@
 import List from "../components/list";
 import TopBar from "../components/topBar";
+import type { Metadata } from "next";
 
-export const metadata = { title: "Hardware" };
+export const metadata: Metadata = { title: "Hardware" };
 
 export default function Home() {
   const dailyDrivers = [

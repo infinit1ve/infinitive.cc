@@ -1,8 +1,9 @@
 import infinitiveLogo from "../assets/projectLogos/infinitive.cc.svg";
 import Projects from "../components/projects";
 import TopBar from "../components/topBar";
+import type { Metadata } from "next";
 
-export const metadata = { title: "Projects" };
+export const metadata: Metadata = { title: "Projects" };
 
 export default function Home() {
   const projects = [

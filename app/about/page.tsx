@@ -1,28 +1,29 @@
 import ExperienceList from "../components/experienceList";
 import Hyperlink from "../components/hyperlink";
 import TopBar from "../components/topBar";
+import type { Metadata } from "next";
 
-export const metadata = { title: "About" };
+export const metadata: Metadata = { title: "About" };
 
 export default function Home() {
-  const site = [
-    {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "Hardware",
-      url: "/hardware",
-    },
-    {
-      name: "Projects",
-      url: "/projects",
-    },
-    {
-      name: "CV",
-      url: "/cv",
-    },
-  ];
+  // const site = [
+  //   {
+  //     name: "Home",
+  //     url: "/",
+  //   },
+  //   {
+  //     name: "Hardware",
+  //     url: "/hardware",
+  //   },
+  //   {
+  //     name: "Projects",
+  //     url: "/projects",
+  //   },
+  //   {
+  //     name: "CV",
+  //     url: "/cv",
+  //   },
+  // ];
   const experience = [
     {
       name: "School internship as an administrative assistant",
