@@ -22,3 +22,14 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: hsl(0, 100%, 100%);
+  background: hsl(252, 62%, 48%);
+}
+
+::selection {
+  color: hsl(0, 100%, 100%);
+  background: hsl(252, 62%, 48%);
+}
