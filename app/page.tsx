@@ -44,7 +44,7 @@ export default function Home() {
     },
     {
       name: "CV",
-      url: "/cv",
+      url: "/lebenslauf.pdf",
     },
   ];
 

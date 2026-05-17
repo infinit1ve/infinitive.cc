@@ -6,25 +6,15 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "About" };
 
 export default function Home() {
-  // const site = [
-  //   {
-  //     name: "Home",
-  //     url: "/",
-  //   },
-  //   {
-  //     name: "Hardware",
-  //     url: "/hardware",
-  //   },
-  //   {
-  //     name: "Projects",
-  //     url: "/projects",
-  //   },
-  //   {
-  //     name: "CV",
-  //     url: "/cv",
-  //   },
-  // ];
   const experience = [
+    {
+      name: "School internship as an editor",
+      place: "Quotenmeter GmbH",
+      url: "https://quotenmeter.de",
+      timeframe: "02/2026 - now",
+      skill1: "Researched, wrote, and published editorial content",
+      skill2: "Edited and proofread of articles published on a media platform",
+    },
     {
       name: "School internship as an administrative assistant",
       place: "Don Bosco Berufsschule",

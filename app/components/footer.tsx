@@ -15,7 +15,7 @@ export default function Footer() {
         <a className="hover:underline" href="/about">
           About Me
         </a>
-        <a className="hover:underline" href="/cv">
+        <a className="hover:underline" href="/lebenslauf.pdf">
           CV
         </a>
         <a className="hover:underline" href="/projects">
