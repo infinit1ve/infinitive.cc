@@ -6,7 +6,7 @@ type projectProps = {
   image: string;
   desc: string;
   date: string;
-  url?: string;
+  url: string;
 };
 
 type props = {
@@ -23,7 +23,7 @@ export default function Projects({ project }: props) {
             <Link
               className="w-full flex flex-col gap-2 sm:gap-4 mb-6 sm:flex-row sm:mb-3"
               key={element.name}
-              href={element.url || undefined}
+              href={element.url}
             >
               <Image
                 className="rounded-xl sm:w-[30%]"
