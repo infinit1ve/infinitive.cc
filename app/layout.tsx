@@ -53,6 +53,7 @@ export default function RootLayout({
       "https://github.com/infinit1ve",
       "https://linkedin.com/in/maksym-tarashchan/",
       "https://www.instagram.com/m.taraschan/",
+      "https://bsky.app/profile/infinitive.cc",
     ],
   };
   return (
