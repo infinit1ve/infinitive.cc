@@ -1,4 +1,12 @@
 import Hyperlink from "./components/hyperlink";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Not Found",
+  alternates: {
+    canonical: "/not-found",
+  },
+};
 
 export default function NotFound() {
   return (

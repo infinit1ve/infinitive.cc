@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type projectProps = {
   name: string;
@@ -19,7 +20,7 @@ export default function Projects({ project }: props) {
       <div>
         {project.map((element) => {
           return (
-            <a
+            <Link
               className="w-full flex flex-col gap-2 sm:gap-4 mb-6 sm:flex-row sm:mb-3"
               key={element.name}
               href={element.url || undefined}
@@ -40,7 +41,7 @@ export default function Projects({ project }: props) {
                 </div>
                 <p className="text-text-gray text-sm">{element.desc}</p>
               </div>
-            </a>
+            </Link>
           );
         })}
       </div>

@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://infinitive.cc"),
   title: {
-    default: "Maksym — Student & Hobbyist Developer | infinitive",
+    default: "Maksym - Student & Hobbyist Developer | infinitive",
     template: "%s | infinitive",
   },
   description:
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://infinitive.cc",
     siteName: "infinitive.cc",
-    title: "Maksym — Student & Hobbyist Developer",
+    title: "Maksym - Student & Hobbyist Developer",
     description:
       "Personal corner of the internet. Projects, hardware tinkering, and notes from someone who learns by doing.",
     images: [

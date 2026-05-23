@@ -3,7 +3,12 @@ import Hyperlink from "../components/hyperlink";
 import TopBar from "../components/topBar";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "About" };
+export const metadata: Metadata = {
+  title: "About",
+  alternates: {
+    canonical: "/about",
+  },
+};
 
 export default function Home() {
   const experience = [

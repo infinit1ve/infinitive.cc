@@ -1,5 +1,6 @@
 import Image from "next/image";
 import arrow from "../assets/icons/arrow-topright.svg";
+import Link from "next/link";
 
 type props = {
   name: string;
@@ -9,7 +10,7 @@ type props = {
 
 export default function Hyperlink({ name, url, external = false }: props) {
   return (
-    <a
+    <Link
       href={url}
       className="cursor-pointer inline-flex flex-row gap-1 items-center mr-0.5 underline underline-offset-2 decoration-dotted hover:decoration-solid"
     >
@@ -17,6 +18,6 @@ export default function Hyperlink({ name, url, external = false }: props) {
       {external ? (
         <Image className="size-2" src={arrow} alt="infinitive.cc logo" />
       ) : null}
-    </a>
+    </Link>
   );
 }

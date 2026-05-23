@@ -1,5 +1,12 @@
 import Links from "./components/links";
 import TopBar from "./components/topBar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   const links = [

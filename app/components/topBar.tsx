@@ -3,6 +3,7 @@
 import Image from "next/image";
 import glyph from "../assets/icons/glyph-main.svg";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 type props = {
   text_left?: string;
@@ -35,10 +36,10 @@ function TopBar({ text_left = "infinitive.cc", text_right }: props) {
   }
   return (
     <div className="flex justify-between items-center p-10 text-text-gray leading-none">
-      <a href="/" className="flex gap-4 items-center">
+      <Link href="/" className="flex gap-4 items-center">
         <Image className="size-3.5" src={glyph} alt="infinitive.cc logo" />
         <p>{text_left}</p>
-      </a>
+      </Link>
       <p>// {text_right ? text_right : `${localTime} LOCAL_TIME`}</p>
     </div>
   );
