@@ -30,7 +30,7 @@ export default function Projects({ project }: props) {
                 src={element.image}
                 alt={`${element.name} logo`}
               />
-              <div className="w-full">
+              <div className="w-full flex flex-col gap-1 sm:gap-0.5">
                 <div className="flex justify-between items-center">
                   <h3
                     className={`text-lg ${element.url ? "hover:underline underline-offset-2" : null}`}
@@ -39,7 +39,9 @@ export default function Projects({ project }: props) {
                   </h3>
                   <p className="text-xs">{element.date}</p>
                 </div>
-                <p className="text-text-gray text-sm">{element.desc}</p>
+                <p className="text-text-gray text-sm md:w-[60%]">
+                  {element.desc}
+                </p>
               </div>
             </Link>
           );
