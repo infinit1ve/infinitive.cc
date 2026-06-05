@@ -49,10 +49,6 @@ export default function Home() {
       name: "About Me",
       url: "/about",
     },
-    {
-      name: "CV",
-      url: "/lebenslauf.pdf",
-    },
   ];
 
   return (
