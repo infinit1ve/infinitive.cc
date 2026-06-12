@@ -3,31 +3,33 @@ import type { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = "2026-06-12";
+  const baseUrl = "https://infinitive.cc/";
   return [
     {
-      url: "https://infinitive.cc",
-      lastModified: new Date(),
+      url: baseUrl,
+      lastModified,
       priority: 1,
     },
     {
-      url: "https://infinitive.cc/about",
-      lastModified: new Date(),
+      url: `${baseUrl}about/`,
+      lastModified,
       priority: 0.8,
     },
     {
-      url: "https://infinitive.cc/blog",
-      lastModified: new Date(),
+      url: `${baseUrl}blog/`,
+      lastModified,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
-      url: "https://infinitive.cc/hardware",
-      lastModified: new Date(),
+      url: `${baseUrl}hardware/`,
+      lastModified,
       priority: 0.1,
     },
     {
-      url: "https://infinitive.cc/projects",
-      lastModified: new Date(),
+      url: `${baseUrl}projects/`,
+      lastModified,
       priority: 0.5,
     },
   ];

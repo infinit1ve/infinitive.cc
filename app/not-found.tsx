@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "404",
   alternates: {
-    canonical: "/404",
+    canonical: "/404/",
   },
   robots: {
     index: false,

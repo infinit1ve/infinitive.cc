@@ -35,19 +35,19 @@ export default function Home() {
   const site = [
     {
       name: "Blog",
-      url: "/blog",
+      url: "/blog/",
     },
     {
       name: "Hardware",
-      url: "/hardware",
+      url: "/hardware/",
     },
     {
       name: "Projects",
-      url: "/projects",
+      url: "/projects/",
     },
     {
       name: "About Me",
-      url: "/about",
+      url: "/about/",
     },
   ];
 

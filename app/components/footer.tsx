@@ -11,16 +11,16 @@ export default function Footer() {
         <Link className="hover:underline" href="/">
           Home
         </Link>
-        <Link className="hover:underline" href="/blog">
+        <Link className="hover:underline" href="/blog/">
           Blog
         </Link>
-        <Link className="hover:underline" href="/about">
+        <Link className="hover:underline" href="/about/">
           About Me
         </Link>
-        <Link className="hover:underline" href="/projects">
+        <Link className="hover:underline" href="/projects/">
           Projects
         </Link>
-        <Link className="hover:underline" href="/hardware">
+        <Link className="hover:underline" href="/hardware/">
           Hardware
         </Link>
       </div>

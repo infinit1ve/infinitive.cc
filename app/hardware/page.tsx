@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Hardware",
   alternates: {
-    canonical: "/hardware",
+    canonical: "/hardware/",
   },
 };
 
